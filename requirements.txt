@@ -1,0 +1,15 @@
+# Pip-installable mirror of environment.yml's pip section.
+# Used by Colab and any pip-only flow. Conda users should use environment.yml.
+
+torch==2.7.1
+mujoco
+dm_control
+wandb
+omegaconf
+python-dotenv
+numpy
+matplotlib
+tqdm
+imageio[ffmpeg]
+einops
+pytest
